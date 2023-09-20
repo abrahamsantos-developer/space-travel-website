@@ -89,6 +89,18 @@ select {
   border: 0;
 }
 
+.box {
+  background-color: lightblue;
+  padding: 3rem;
+}
+
+.cta {
+  background: pink;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+
 
 
 
