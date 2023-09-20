@@ -1,4 +1,14 @@
 /* ----------- */
+/* Custom properties */
+/* ----------- */
+
+:root {
+  --color-dark:230 35% 7%;
+  --color-light:231 77% 90%;
+  --color-white:0 0% 100%;
+}
+
+/* ----------- */
 /* Reset */
 /* ----------- */
 
@@ -100,7 +110,19 @@ select {
   border-radius: 1rem;
 }
 
+/* Colors */
 
+.bg-dark {background-color: hsl(var(--color-dark))}
+.bg-accent {background-color: hsl(var(--color-light))}
+.bg-white {background-color: hsl(var(--color-white))}
+
+.text-dark {color: hsl(var(--color-dark))}
+.text-accent {color: hsl(var(--color-light))}
+.text-white {color: hsl(var(--color-white))}
+
+.example-component {
+  background-color: hsl(var(--color-light) / .2 );
+}
 
 
 
